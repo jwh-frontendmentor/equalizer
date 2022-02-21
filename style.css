@@ -8,12 +8,13 @@
 body {
     background-image: url('assets/bg-main-desktop.png');
     background-repeat: no-repeat;
-    background-position-x: -250px;
+    background-position-x: -220px;
     background-position-y: -270px;
 }
 
 header,
-section {
+section,
+footer {
     margin-left: 165px;
     margin-top: 5%;
 }
@@ -24,12 +25,11 @@ header .logo {
 }
 
 .header-shapes {
-    /* float: right; */
     position: absolute;
     top: -30px;
     left: 1272px;
     height: 468px;
-    width: 312px;
+    width: 310px;
 }
 
 .description {
@@ -37,12 +37,11 @@ header .logo {
 }
 
 .description-headline {
+    font-weight: 700;
     font-size: 88px;
     letter-spacing: -1px;
     line-height: 88px;
 }
-
-.description-headline {}
 
 .description-text {
     width: 825px;
@@ -51,8 +50,164 @@ header .logo {
     line-height: 34px;
 }
 
-.app-illustration img {
+.app-illustration {
     margin-left: 101px;
     width: 312px;
     height: 642px;
+}
+
+.product {
+    position: relative;
+    /* Height from the illustration-app to the bottom of the black box */
+    height: 813px;
+}
+
+.product-bg {
+    position: absolute;
+    top: 213px;
+    background-color: #191826;
+    width: 1110px;
+    height: 600px;
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.bg-shapes {
+    position: absolute;
+    left: 336px;
+    top: -45px
+}
+
+.product-card {
+    position: absolute;
+    left: 569px;
+    top: 303px;
+    background-color: #FA7453;
+    width: 446px;
+    height: 625px;
+    border-radius: 12px;
+}
+
+.product-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FCFAF9;
+    margin-right: 60px;
+}
+
+.product-price {
+    font-size: 65px;
+    color: #FCFAF9;
+}
+
+.product-card .product-p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -68px;
+    margin-left: 94px;
+    letter-spacing: -0.2px;
+    line-height: 52px;
+}
+
+.product-card .product-headline {
+    font-size: 40px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+.product-headline {
+    margin-top: 50px;
+    margin-left: 54px;
+}
+
+.product-text,
+.product-price {
+    margin-top: 20px;
+    margin-left: 54px;
+}
+
+.product-ios-dl {
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+
+.product-ios-dl,
+.product-an-dl {
+    margin-left: 54px;
+    height: 61px;
+    width: 333px;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+
+.product-ios-dl {
+    color: #FCFAF9;
+    background-color: #191826;
+}
+
+.product-an-dl {
+    color: #191826;
+    background-color: #FCFAF9;
+}
+
+.product-ios-dl:hover {
+    background-color: #66E2DC;
+    cursor: pointer;
+}
+
+.product-an-dl:hover {
+    background-color: #FFB964;
+    cursor: pointer;
+}
+
+.apple-svg,
+.android-svg {
+    margin-right: 8px;
+}
+
+footer {
+    display: flex;
+    height: 165px;
+    width: 1110px;
+    margin-top: 202px;
+}
+
+footer .logo {
+    height: 32px;
+    width: 146px;
+}
+
+footer .footer-text {
+    margin-left: 140px;
+    width: 366px;
+    height: 79px;
+}
+
+.social-media-links {
+    margin-left: 350px;
+}
+
+
+/* HOVER SOCIAL MEDIA
+.facebook:hover,
+.instagram:hover,
+.twitter:hover {
+    
+} */
+
+.facebook,
+.instagram,
+.twitter {
+    width: 20px;
+    height: 20px;
+}
+
+.facebook,
+.instagram {
+    margin-right: 20px;
 }
