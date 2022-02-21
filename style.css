@@ -97,6 +97,8 @@ header .logo {
 }
 
 .product-price {
+    margin-top: 10px;
+    margin-left: 54px;
     font-size: 65px;
     color: #FCFAF9;
 }
@@ -121,8 +123,7 @@ header .logo {
     margin-left: 54px;
 }
 
-.product-text,
-.product-price {
+.product-text {
     margin-top: 20px;
     margin-left: 54px;
 }
@@ -187,33 +188,39 @@ footer .footer-content {
     display: inline-flex;
 }
 
-footer .footer-text {
+footer .footer-content .footer-text {
     margin-left: 140px;
     width: 366px;
     height: 79px;
 }
 
-.social-media-links {
+footer .footer-content .social-media-links {
     margin-left: 350px;
 }
 
+footer .footer-content .social-media-links a {
+    text-decoration: none;
+}
 
-/* HOVER SOCIAL MEDIA
-.facebook:hover,
-.instagram:hover,
-.twitter:hover {
-    
-} */
 
-.facebook,
-.instagram,
-.twitter {
+/* HOVER SOCIAL MEDIA */
+
+footer .footer-content .social-media-links a svg:hover #facebook,
+footer .footer-content .social-media-links a svg:hover #instagram,
+footer .footer-content .social-media-links a svg:hover #twitter {
+    fill: #FFB964;
+    opacity: 1;
+}
+
+#facebook,
+#instagram,
+#twitter {
     width: 20px;
     height: 20px;
 }
 
-.facebook,
-.instagram {
+footer .footer-content .social-media-links .facebook-link,
+footer .footer-content .social-media-links .instagram-link {
     margin-right: 20px;
 }
 
@@ -301,10 +308,10 @@ footer .footer-text {
     footer .footer-content {
         margin-top: 40px;
     }
-    footer .footer-text {
+    footer .footer-content .footer-text {
         margin-left: 0;
     }
-    footer .social-media-links {
+    footer .footer-content .social-media-links {
         margin-left: 230px;
     }
 }
@@ -315,5 +322,70 @@ footer .footer-text {
 @media (max-width: 375px) {
     body {
         background-image: url('assets/bg-main-mobile.png');
+        background-size: cover;
+        background-position-x: -200px;
+        background-position-y: -725px;
+    }
+    header {
+        margin-top: 40px;
+    }
+    .header-shapes {
+        display: none;
+    }
+    .description {
+        margin-top: 50px;
+        width: 327px;
+    }
+    .description-headline {
+        font-size: 40px;
+        letter-spacing: -0.45px;
+        line-height: 48px;
+    }
+    .description-text {
+        font-size: 16px;
+        line-height: 26px;
+        /* width: 327px; */
+        width: 20.438rem;
+    }
+    .product {
+        margin-left: 0;
+        width: 375px;
+        height: 1024px;
+    }
+    .app-illustration {
+        height: 430px;
+        width: 208px;
+    }
+    .product-bg {
+        top: 100px;
+        height: 600px;
+        width: 375px;
+    }
+    .bg-shapes {
+        top: 0px;
+        left: 50px;
+        height: 420px;
+        width: 280px;
+    }
+    .product-card {
+        top: 480px;
+        left: 0px;
+        width: 375px;
+    }
+    .product-text {
+        width: 302px;
+    }
+    footer {
+        margin-top: 60px;
+    }
+    footer .footer-content {
+        flex-direction: column;
+    }
+    footer .footer-content .footer-text {
+        width: 327px;
+    }
+    footer .footer-content .social-media-links {
+        margin-left: 0;
+        margin-top: 65px;
     }
 }
