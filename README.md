@@ -38,7 +38,7 @@ Screenshot of the visible part of the solution via FireFox screenshot option and
 
 ### Links
 
-- Solution URL: 
+- Solution URL: (https://www.frontendmentor.io/solutions/equalizer-landing-page-GVb4iQ1bLSS)
 - Live Site URL: (https://jwh-frontendmentor.github.io/equalizer/)
 
 ## My process
