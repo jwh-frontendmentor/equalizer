@@ -24,11 +24,9 @@ Users should be able to:
 
 #### Solution
 
-When I made the solution I focused on the three breakpoints provided with the mockup:
+When I made the solution I tried focusing on the breakpoints provided with the mockup: 1440px, 768px, 375px.
 
-- Desktop: 1440px
-- Tablet: 768px
-- Mobile: 375px
+I have plans to change it in the future to achieve a more responsive website.
 
 ### Screenshot
 
