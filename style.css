@@ -296,7 +296,7 @@ footer .footer-content .social-media-links .instagram-link {
 
 /* TABLET 768px  --------> media only screen and (min-width:636) and (max-width: 1030px)*/
 
-@media (max-width: 48rem) {
+@media only screen and (min-width:39.75rem) and (max-width: 64.375rem) {
     body {
         background-image: url('assets/bg-main-tablet.png');
         background-repeat: no-repeat;
