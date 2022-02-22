@@ -26,7 +26,7 @@ Users should be able to:
 
 When I made the solution I tried focusing on the breakpoints provided with the mockup: 1440px, 768px, 375px.
 
-I have plans to change it in the future to achieve a more responsive website.
+I have plans to change it in the future to achieve a more responsive website but for now the solution looks like the mockup when at breakpoints 768px and 375px. I spaced out when making the desktop version and therefore ended up working on 1920px instead of 1440px.
 
 ### Screenshot
 
