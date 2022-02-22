@@ -146,10 +146,7 @@ header .logo {
     font-weight: 400;
     /* 20px */
     font-size: 1.25rem;
-    /* -68px */
-    margin-top: -4.25rem;
-    /* 94px */
-    margin-left: 5.875rem;
+    margin-left: 0;
     /* -0.2px */
     letter-spacing: -0.013rem;
     /* 52px */
@@ -269,12 +266,6 @@ footer .footer-content .social-media-links {
 
 footer .footer-content .social-media-links a {
     text-decoration: none;
-}
-
-.attribution {
-    text-align: center;
-    /* 5px */
-    margin-bottom: 0.313rem;
 }
 
 
@@ -531,9 +522,5 @@ footer .footer-content .social-media-links .instagram-link {
         margin-left: 0;
         /* 65px */
         margin-top: 4.063rem;
-    }
-    .attribution {
-        /* 125px */
-        margin-top: 7.813rem;
     }
 }
