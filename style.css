@@ -492,20 +492,27 @@ footer .footer-content .social-media-links .instagram-link {
     }
     .bg-shapes {
         top: 0px;
-        left: 50px;
-        height: 420px;
-        width: 280px;
+        /* 50px */
+        left: 3.125rem;
+        /* 420px */
+        height: 26.25rem;
+        /* 280px */
+        width: 17.5rem;
     }
     .product-card {
-        top: 480px;
+        /* 480px */
+        top: 30rem;
         left: 0px;
-        width: 375px;
+        /* 375px */
+        width: 23.438rem;
     }
     .product-text {
-        width: 302px;
+        /* 302px */
+        width: 18.875rem;
     }
     footer {
-        margin-top: 60px;
+        /* 60px */
+        margin-top: 3.75rem;
     }
     footer .footer-content {
         flex-direction: column;
@@ -515,6 +522,7 @@ footer .footer-content .social-media-links .instagram-link {
     }
     footer .footer-content .social-media-links {
         margin-left: 0;
-        margin-top: 65px;
+        /* 65px */
+        margin-top: 4.063rem;
     }
 }
