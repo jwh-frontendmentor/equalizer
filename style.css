@@ -19,8 +19,8 @@ section,
 footer {
     /*165px*/
     margin-left: 10.313rem;
-    /*50px*/
-    margin-top: 3.125rem;
+    /*80px*/
+    margin-top: 5rem;
 }
 
 header .logo {
@@ -442,7 +442,7 @@ footer .footer-content .social-media-links .instagram-link {
         background-image: url('assets/bg-main-mobile.png');
         background-size: cover;
         /* -200px */
-        background-position-x: -12.5;
+        background-position-x: -12.5rem;
         /* -725 */
         background-position-y: -45.313rem;
     }
