@@ -294,7 +294,7 @@ footer .footer-content .social-media-links .instagram-link {
 }
 
 
-/* TABLET 768px */
+/* TABLET 768px  --------> media only screen and (min-width:636) and (max-width: 1030px)*/
 
 @media (max-width: 48rem) {
     body {
@@ -426,9 +426,9 @@ footer .footer-content .social-media-links .instagram-link {
 }
 
 
-/* MOBILE 375px */
+/* MOBILE 375px  ----- change media only screen and (max-width:636)*/
 
-@media (max-width: 23.438rem) {
+@media only screen and (max-width: 39.75rem) {
     body {
         background-image: url('assets/bg-main-mobile.png');
         background-size: cover;
