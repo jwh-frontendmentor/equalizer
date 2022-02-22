@@ -271,6 +271,12 @@ footer .footer-content .social-media-links a {
     text-decoration: none;
 }
 
+.attribution {
+    text-align: center;
+    /* 5px */
+    margin-bottom: 0.313rem;
+}
+
 
 /* HOVER SOCIAL MEDIA */
 
@@ -518,11 +524,16 @@ footer .footer-content .social-media-links .instagram-link {
         flex-direction: column;
     }
     footer .footer-content .footer-text {
-        width: 327px;
+        /* 327px; */
+        width: 20.438rem
     }
     footer .footer-content .social-media-links {
         margin-left: 0;
         /* 65px */
         margin-top: 4.063rem;
+    }
+    .attribution {
+        /* 125px */
+        margin-top: 7.813rem;
     }
 }
