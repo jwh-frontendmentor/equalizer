@@ -35,9 +35,9 @@ header .logo {
 }
 
 
-/* Mobile up to 414px */
+/* Mobile up to 767px */
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 767px) {
     body {
         background-image: url('assets/bg-main-mobile.png');
         background-size: cover;
@@ -57,7 +57,7 @@ header .logo {
     }
     .description__headline {
         font-size: 2.5rem;
-        letter-spacing: -0.028rem;
+        letter-spacing: -0.014rem;
         line-height: 3rem;
         margin-bottom: 1.313rem;
     }
@@ -197,6 +197,16 @@ header .logo {
 }
 
 
+/* Mobile 414px to 480px download buttons */
+
+@media only screen and (min-width: 414px) and (max-width:480px) {
+    .card__ios-dl,
+    .card__an-dl {
+        width: 83.5%;
+    }
+}
+
+
 /* Mobile up to 320px */
 
 @media only screen and (max-width:320px) {
@@ -247,7 +257,10 @@ header .logo {
     }
 }
 
-@media only screen and (max-width:1024px) and (min-width:768px) {
+
+/* TABLET from 768px up to 1024px */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
     body {
         background-image: url('assets/bg-main-tablet.png');
         background-repeat: no-repeat;
@@ -388,9 +401,31 @@ header .logo {
 }
 
 
-/* DESKTOP  */
+/* Tablet 1024px */
 
-@media only screen and (min-width:1280px) and (max-width:1440px) {
+@media only screen and (width: 1024px) {
+    header,
+    .description,
+    .product,
+    footer {
+        margin-left: 2.7rem;
+    }
+    .header__shapes {
+        left: 76vw;
+    }
+    .description__headline {
+        font-size: 4.8rem;
+    }
+    .description__text {
+        font-size: 1.321rem;
+        width: 37.5rem;
+    }
+}
+
+
+/* Laptop/Desktop from 1025px up to 2560px */
+
+@media only screen and (min-width:1025px) and (max-width:2560px) {
     body {
         background-image: url('assets/bg-main-desktop.png');
         background-repeat: no-repeat;
@@ -416,7 +451,7 @@ header .logo {
         width: 19.375rem;
     }
     .description {
-        width: 68.75rem;
+        width: 60vw;
     }
     .description__headline {
         font-weight: 700;
@@ -560,6 +595,9 @@ header .logo {
     }
 }
 
+
+/* Laptop 1280px */
+
 @media only screen and (width:1280px) {
     header,
     .description,
@@ -569,5 +607,35 @@ header .logo {
     }
     footer {
         margin-top: 12.625rem;
+    }
+}
+
+
+/* Desktop 1920px */
+
+@media only screen and (width: 1920px) {
+    header,
+    .description,
+    .product,
+    footer {
+        margin-left: 12rem;
+    }
+    .header__shapes {
+        left: 83.7vw;
+    }
+}
+
+
+/* Desktop 2560px */
+
+@media only screen and (width: 2560px) {
+    header,
+    .description,
+    .product,
+    footer {
+        margin-left: 20rem;
+    }
+    .header__shapes {
+        left: 88vw;
     }
 }
